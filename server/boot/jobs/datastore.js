@@ -68,7 +68,7 @@ console.log('datastore sync starting');
   const DELTHRESHOLD = new Date(Date.now() - 10000);
   const STORAGE_URL = 'https://iatiprod.blob.core.windows.net/source/';
 
-  const filesDatastore = await axios.get(`https://prod-func-validator-services.azurewebsites.net/api/pub/dsdocs`);
+  const filesDatastore = await axios.get(`https://func-validator-services-prod.azurewebsites.net/api/pub/dsdocs`);
 
   const filteredResults = _.chunk(filesDatastore.data, googleStorageConfig.datastore.workers);
 
