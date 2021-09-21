@@ -1,3 +1,12 @@
+# _NOTE_
+
+## IATI-Validator-Server (v1) is Deprecated
+- v1 of the IATI Validator is now deprecated and superseded by v2
+- This repository is Archived and not maintained by IATI
+
+[Full Announcement](https://iatistandard.org/en/news/iati-focuses-on-improving-data-quality-by-enhancing-validator-services/)
+
+
 Development
 -----------
 
